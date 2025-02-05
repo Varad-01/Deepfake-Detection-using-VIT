@@ -63,7 +63,7 @@ def load_model():
     )
     
     # Load pre-trained weights
-    weights_path = "as_model_0.927.pt"  # Update this path
+    weights_path = "as_model_0.770.pt"  # Update this path
     if os.path.exists(weights_path):
         model.load_state_dict(torch.load(weights_path, map_location=torch.device('cpu')))
     
